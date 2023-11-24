@@ -1,16 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML LESSON - 3 </title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML LESSON - 3</title>
+    <!-- HTML dosyasına CSS dosyalarını yükleme yöntemleri 
+        1 - Header içine <link rel="stylesheet" href="assets/style.css"> şeklinde css dosyasını eklemek
+        2- <style> ..</style> şeklinde ekleyip içine cssleri yazmak
+        3- Inline şeklinde direk HTML tag'ine ekleme
+        
+        En tercih edilen ve en pro olan yöntem ilk yöntemdir.
+    -->
 
-<body> <!-- Yorumalksjdlaks d -->
-    <h1>Lorem Ipsum</h1>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus volutpat sem eros, mollis porttitor mauris condimentum in. Nulla facilisi. Praesent suscipit leo mattis ipsum pellentesque, non porta sem imperdiet. Sed imperdiet dapibus tempus. Nullam sagittis dolor quis lacus vestibulum lacinia. Proin quis lectus sit amet enim elementum euismod eget sed risus. Sed tellus sem, fringilla ut magna a, lacinia dignissim lacus. Maecenas sed augue nibh. Vivamus libero augue, sodales eget magna vitae, ultricies convallis leo. Pellentesque viverra dolor et felis dapibus, non rhoncus urna placerat. Fusce non tristique diam. Praesent auctor vitae metus in ornare. Nunc sed lacus maximus, porttitor sapien at, rhoncus mauris. Maecenas eu odio nec leo egestas dapibus eu ornare urna. Duis quis condimentum augue. Nunc placerat luctus pellentesque. </p> <!--p: Paragraf tag-->
-    <p> Nam sed blandit massa. Morbi tincidunt, nisl vitae aliquet volutpat, sapien dui egestas sapien, vel maximus dolor tortor at nisl. Aenean quis dolor vitae ante elementum iaculis lacinia et orci. In blandit porta ex at rhoncus. Mauris et nibh non nulla luctus iaculis vitae eget nisi. Fusce luctus neque in felis dictum euismod. Ut laoreet convallis tortor, vitae tincidunt ipsum consectetur sed. Proin ac risus sodales, luctus odio sit amet, ullamcorper nunc. Quisque nec ex a metus mollis rhoncus et quis erat. Sed dolor turpis, placerat nec nulla quis, tincidunt congue nibh. </p>
-    <p>Donec lacinia dui at sem ornare sodales. Vestibulum in mattis sem, at tristique metus. Sed pharetra eu nisl nec pharetra. Curabitur hendrerit lacus non arcu pharetra semper. Donec congue lorem vitae maximus mollis. Duis tristique at sapien ac aliquet. Nullam tempor eros risus, a rutrum ipsum luctus quis. Proin ultricies quam sit amet orci efficitur, ac dapibus massa vulputate. Aliquam commodo, risus et porttitor scelerisque, libero nisl sagittis elit, eu eleifend velit mi vitae erat. Nulla facilisis massa ex, at porttitor mauris feugiat ac. Integer nec dui suscipit, pellentesque massa et, blandit eros. Sed in tellus faucibus tortor lacinia convallis. Mauris laoreet leo in commodo euismod. Aliquam eget sagittis dui, et iaculis nibh. Quisque velit lectus, cursus at semper sed, dapibus nec justo.</p>
-</body>
+    <!--CSS ekleme 1.Yöntem-->
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!--CSS ekleme 2.Yöntem
+    <style>
+      body {
+        color: #000 !important; 
+        font-size: 50px;
+        font-weight: 900;
+      }
+    </style>-->
+  </head>
+
+  <body> <!--style="color: rgb(161, 42, 165)">  CSS ekleme 3.Yöntem -->
+    <!-- Yorumalksjdlaks d -->
+    <h1>Lorem Ipsum - H1</h1>
+    <h2>This Tag is H2 Title</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+      volutpat sem eros, mollis porttitor mauris condimentum in. Nulla facilisi.
+      Praesent suscipit leo mattis ipsum pellentesque, non porta sem imperdiet.
+      Sed imperdiet dapibus tempus. Nullam sagittis dolor quis lacus vestibulum
+      lacinia. Proin quis lectus sit amet enim elementum euismod eget sed risus.
+      Sed tellus sem, fringilla ut magna a, lacinia dignissim lacus. Maecenas
+      sed augue nibh. Vivamus libero augue, sodales eget magna vitae, ultricies
+      convallis leo. Pellentesque viverra dolor et felis dapibus, non rhoncus
+      urna placerat. Fusce non tristique diam. Praesent auctor vitae metus in
+      ornare. Nunc sed lacus maximus, porttitor sapien at, rhoncus mauris.
+      Maecenas eu odio nec leo egestas dapibus eu ornare urna. Duis quis
+      condimentum augue. Nunc placerat luctus pellentesque.
+    </p>
+    <!--p: Paragraf tag-->
+    <h2>Frontend Dev - H2</h2>
+    <h3>HTML - H3</h3>
+    <img src="assets/images/html.jpg" alt="html" width="400" height="400">
+    <p>
+        Nam sed blandit massa. Morbi tincidunt, nisl vitae aliquet volutpat,
+        sapien dui egestas sapien, vel maximus dolor tortor at nisl. Aenean quis
+        dolor vitae ante elementum iaculis lacinia et orci. In blandit porta ex at
+        rhoncus. Mauris et nibh non nulla luctus iaculis vitae eget nisi. Fusce
+        luctus neque in felis dictum euismod. Ut laoreet convallis tortor, vitae
+        tincidunt ipsum consectetur sed. Proin ac risus sodales, luctus odio sit
+        amet, ullamcorper nunc. Quisque nec ex a metus mollis rhoncus et quis
+        erat. Sed dolor turpis, placerat nec nulla quis, tincidunt congue nibh.
+      </p>
+    <h3>CSS - H3</h3>
+    <img src="assets/images/css.jpg" alt="css" width="400">
+    <p>
+        Nam sed blandit massa. Morbi tincidunt, nisl vitae aliquet volutpat,
+        sapien dui egestas sapien, vel maximus dolor tortor at nisl. Aenean quis
+        dolor vitae ante elementum iaculis lacinia et orci. In blandit porta ex at
+        rhoncus. Mauris et nibh non nulla luctus iaculis vitae eget nisi. Fusce
+        luctus neque in felis dictum euismod. Ut laoreet convallis tortor, vitae
+        tincidunt ipsum consectetur sed. Proin ac risus sodales, luctus odio sit
+        amet, ullamcorper nunc. Quisque nec ex a metus mollis rhoncus et quis
+        erat. Sed dolor turpis, placerat nec nulla quis, tincidunt congue nibh.
+      </p>
+    <h3>JS - H3</h3>
+    <img src="assets/images/js.jpg" alt="java-script" width="400">
+    <p>
+        Nam sed blandit massa. Morbi tincidunt, nisl vitae aliquet volutpat,
+        sapien dui egestas sapien, vel maximus dolor tortor at nisl. Aenean quis
+        dolor vitae ante elementum iaculis lacinia et orci. In blandit porta ex at
+        rhoncus. Mauris et nibh non nulla luctus iaculis vitae eget nisi. Fusce
+        luctus neque in felis dictum euismod. Ut laoreet convallis tortor, vitae
+        tincidunt ipsum consectetur sed. Proin ac risus sodales, luctus odio sit
+        amet, ullamcorper nunc. Quisque nec ex a metus mollis rhoncus et quis
+        erat. Sed dolor turpis, placerat nec nulla quis, tincidunt congue nibh.
+      </p>
+    <h3>React - H3</h3>
+    <img src="assets/images/react.png" alt="react" width="400">
+    <p>
+      Nam sed blandit massa. Morbi tincidunt, nisl vitae aliquet volutpat,
+      sapien dui egestas sapien, vel maximus dolor tortor at nisl. Aenean quis
+      dolor vitae ante elementum iaculis lacinia et orci. In blandit porta ex at
+      rhoncus. Mauris et nibh non nulla luctus iaculis vitae eget nisi. Fusce
+      luctus neque in felis dictum euismod. Ut laoreet convallis tortor, vitae
+      tincidunt ipsum consectetur sed. Proin ac risus sodales, luctus odio sit
+      amet, ullamcorper nunc. Quisque nec ex a metus mollis rhoncus et quis
+      erat. Sed dolor turpis, placerat nec nulla quis, tincidunt congue nibh.
+    </p>
+    
+    <h2>Backend Dev - H2</h2>
+    <h3>Python - H3</h3>
+    <h4>Django - H4</h4>
+    <img src="assets/images/django.png" alt="python-django" width="400">
+    <p>
+        Nam sed blandit massa. Morbi tincidunt, nisl vitae aliquet volutpat,
+        sapien dui egestas sapien, vel maximus dolor tortor at nisl. Aenean quis
+        dolor vitae ante elementum iaculis lacinia et orci. In blandit porta ex at
+        rhoncus. Mauris et nibh non nulla luctus iaculis vitae eget nisi. Fusce
+        luctus neque in felis dictum euismod. Ut laoreet convallis tortor, vitae
+        tincidunt ipsum consectetur sed. Proin ac risus sodales, luctus odio sit
+        amet, ullamcorper nunc. Quisque nec ex a metus mollis rhoncus et quis
+        erat. Sed dolor turpis, placerat nec nulla quis, tincidunt congue nibh.
+      </p>
+  </body>
 </html>
-
