@@ -1,3 +1,13 @@
+
 img{
-    border-radius: 50% 0 50% 0;
+    border:10px solid red;
+    border-radius: 10px;
+}
+
+.cumle{
+color:red
+}
+
+span{
+    color: #09a1f3;
 }
