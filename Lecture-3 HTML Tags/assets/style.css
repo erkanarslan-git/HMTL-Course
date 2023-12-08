@@ -11,3 +11,11 @@ color:red
 span{
     color: #09a1f3;
 }
+
+blockquote{
+    background-color: #055885;
+    color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    font-size: 12px;
+}
